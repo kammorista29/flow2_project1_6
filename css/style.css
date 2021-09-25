@@ -153,6 +153,10 @@ a {
 
 .about-welcome-section {
     background-color: #39404b;
+    background-image: url(../img/o_nas.jpg);
+    background-size: cover;
+    width: 1406px;
+    height: 350px;
 }
 
 .about-title {
@@ -317,6 +321,129 @@ a {
     display: flex;
 }
 
+.img-wrapper {
+    padding-left: 200px;
+    padding-top: 132px;
+}
+
 .title {
     padding-left: 81px;
+}
+
+.index-info-text p {
+    padding-left: 64px;
+    padding-bottom: 319px;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #20242D;
+}
+
+.index-info-text h2 {
+    padding-left: 81px;
+    padding-top: 201px;
+}
+
+.footer-blok {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-top: 58px;
+    padding-bottom: 52px;
+}
+
+.navigation {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation li {
+    margin-left: 56px;
+}
+
+.button-footer {
+    padding: 16px 63px;
+    margin-right: 50px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 50px;
+}
+
+.about-title {
+    padding-left: 217px;
+    padding-top: 200px;
+}
+
+.about-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text-container-one {
+    padding-top: 80px;
+    padding-left: 200px;
+    padding-bottom: 184px;
+}
+
+.about-text-container-two {
+    padding-top: 80px;
+    padding-right: 266px;
+}
+
+.slaids {
+    display: block;
+    padding-top: 75px;
+    padding-left: 300px;
+    padding-bottom: 153px;
+    list-style: none;
+}
+
+.projekts-title {
+    padding-left: 218px;
+    padding-top: 125px;
+}
+
+.contacts-welcome-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-map {
+    padding-top: 530px;
+    padding-left: 151px;
+}
+
+.contacts-title {
+    padding-left: 217px;
+    padding-top: 125px;
+    padding-bottom: 178px;
+}
+
+.contacts-navigation {
+    display: block;
+    padding-left: 201px;
+    margin-top: 85px;
+}
+
+.contacts-info {
+    display: block;
+    padding-left: 229px;
+    padding-top: 12px;
+}
+
+.contacts-info-tel {
+    display: block;
+    padding-left: 229px;
+    padding-top: 12px;
+}
+
+.contacts-info-navigation {
+    margin-bottom: 174px;
 }
