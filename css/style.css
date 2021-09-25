@@ -313,6 +313,10 @@ a {
     margin-right: 56px;
 }
 
-.img-wrapper {
+.img-info {
     display: flex;
+}
+
+.title {
+    padding-left: 81px;
 }
