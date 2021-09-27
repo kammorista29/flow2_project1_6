@@ -1,9 +1,11 @@
 * {
-    box-sizing: inherit
+    box-sizing: inherit;
 }
 
 body {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -155,8 +157,7 @@ a {
     background-color: #39404b;
     background-image: url(../img/o_nas.jpg);
     background-size: cover;
-    width: 1406px;
-    height: 350px;
+    padding: 200px 0 103px 217px;
 }
 
 .about-title {
@@ -166,6 +167,7 @@ a {
     font-size: 48px;
     line-height: 97%;
     color: #FFFFFF;
+    margin: 0;
 }
 
 .contacts-page-main {
@@ -223,6 +225,8 @@ a {
 
 .instalation-welcome-section {
     background-color: #555f6b;
+    background-image: url(../img/instal_top.jpg);
+    background-size: cover;
 }
 
 .instalation-title {
@@ -297,14 +301,6 @@ a {
     align-items: center;
 }
 
-.navigation-list li {
-    margin-right: 56px;
-}
-
-.navigation-list li:last-child {
-    margin: 0;
-} 
-
 .header-wraper-contacts {
     justify-content: flex-start
 }
@@ -352,6 +348,7 @@ a {
     padding-left: 50px;
     padding-top: 58px;
     padding-bottom: 52px;
+    align-items: center;
 }
 
 .navigation {
@@ -374,11 +371,6 @@ a {
     display: flex;
     justify-content: space-between;
     padding: 24px 50px;
-}
-
-.about-title {
-    padding-left: 217px;
-    padding-top: 200px;
 }
 
 .about-text {
@@ -446,4 +438,66 @@ a {
 
 .contacts-info-navigation {
     margin-bottom: 174px;
+}
+
+.instalation-title {
+    margin: 0px;
+    padding-top: 162px;
+    padding-right: 820px;
+    padding-bottom: 163px;
+}
+
+.instalation-info-section {
+    margin-top: 120px;
+}
+
+.heading-info {
+    margin: 0px;
+    padding-left: 467px;
+}
+
+.subtitle-info {
+    padding-left: 450px;
+}
+
+.text-container {
+    padding-left: 450px;
+}
+
+.instal1 {
+    padding-left: 450px;
+    padding-bottom: 24px;
+}
+
+.instal2-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.instal2 {
+    margin: 14px;
+}
+
+.instal3 {
+    margin: 14px;
+}
+
+.text-container-description {
+    padding-left: 476px;
+}
+
+.inst-link-list {
+    padding-left: 507px;
+}
+
+.instal4 {
+    padding-left: 450px;
+}
+
+.text-lat {
+    color: #FF7129;
+}
+
+.last-instal-blok {
+    padding-bottom: 120px;
 }
