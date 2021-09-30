@@ -402,48 +402,47 @@ a {
     padding-top: 125px;
 }
 
+.contacts-title {
+    margin: 0px;
+    padding-left: 16px;
+}
+
 .contacts-welcome-section {
     display: flex;
+    padding-left: 201px;
+    padding-top: 125px;
     justify-content: space-between;
 }
 
-.contacts-map {
-    padding-top: 530px;
-    padding-left: 151px;
-}
-
-.contacts-title {
-    padding-left: 217px;
-    padding-top: 125px;
-    padding-bottom: 178px;
+.contacts-info-navigation {
+    display: block;
+    padding-top: 178px;
+    padding-bottom: 174px;
 }
 
 .contacts-navigation {
     display: block;
-    padding-left: 201px;
-    margin-top: 85px;
+    padding-top: 85px;
 }
 
 .contacts-info {
     display: block;
-    padding-left: 229px;
-    padding-top: 12px;
+    padding-left: 28px;
 }
 
 .contacts-info-tel {
-    display: block;
-    padding-left: 229px;
-    padding-top: 12px;
+    padding-left: 28px;
 }
 
-.contacts-info-navigation {
-    margin-bottom: 174px;
+.contacts-map {
+    display: block;
+    padding-top: 461px;
 }
 
 .instalation-title {
     margin: 0px;
     padding-top: 162px;
-    padding-right: 820px;
+    padding-right: 416px;
     padding-bottom: 163px;
 }
 
