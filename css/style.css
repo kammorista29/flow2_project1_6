@@ -500,3 +500,7 @@ a {
 .last-instal-blok {
     padding-bottom: 120px;
 }
+
+.button-red{
+    background-color: red;
+}
