@@ -1,4 +1,4 @@
-* {
+*, *::before, *::after  {
     box-sizing: inherit;
 }
 
@@ -28,8 +28,28 @@ a {
 }
 
 .active-nav-link{
-    
     color: #FF7129;
+    position: relative;
+}
+
+.active-nav-link::before {
+    position: absolute;
+    content: '';
+    background-color: #FF7129;
+    width: 10px;
+    height: 1px;
+    top: 50%;
+    left: -18px;
+}
+
+.active-nav-link::after {
+    position: absolute;
+    content: '';
+    background-color: #FF7129;
+    width: 10px;
+    height: 1px;
+    top: 50%;
+    right: -18px;
 }
 
 .header-wraper-contacts {
@@ -37,13 +57,34 @@ a {
     color: white;
 }
 
-.contact-link {
+.contact-link-one {
     color: white;
     font-family: 'Gilroy', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 14px;
+}
+
+.convert-contact {
+    padding-right: 9px;
+}
+
+.trubka-contact {
+    padding-right: 9.7px;
+}
+
+.contact-link-two {
+    color: white;
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.contact-link-one {
+    margin-right: 56px;
 }
 
 .header-address {
@@ -62,6 +103,32 @@ a {
     padding-top: 271px;
     padding-bottom: 290px;
     text-align: center;
+}
+
+.welcome-section-wrapper {
+    position: relative;
+}
+
+.welcome-section-wrapper::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/solar.png');
+    background-repeat: no-repeat;
+    width: 379px;
+    height: 145px;
+    top: 187px;
+    left: 50px;
+}
+
+.welcome-section-wrapper::after {
+    position: absolute;
+    content: '';
+    background-image: url('../img/energy.png');
+    background-repeat: no-repeat;
+    width: 444px;
+    height: 145px;
+    top: 397px;
+    right: 50px;
 }
 
 .main-title {
@@ -162,6 +229,17 @@ a {
     padding: 200px 0 103px 217px;
 }
 
+.about-welcome-section-wrapper::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/about.png');
+    background-repeat: no-repeat;
+    width: 313px;
+    height: 116px;
+    left: 173px;
+    top: 241px;
+}
+
 .about-title {
     font-family: 'Gilroy', sans-serif;
     font-style: normal;
@@ -170,6 +248,15 @@ a {
     line-height: 97%;
     color: #FFFFFF;
     margin: 0;
+}
+
+.about-title::before {
+    position: absolute;
+    content: '';
+    background-color: #FF7129;
+    width: 1px;
+    height: 52px;
+    left: 202px;
 }
 
 .contacts-page-main {
@@ -223,6 +310,37 @@ a {
     font-size: 48px;
     line-height: 97%;
     color: #20242D;
+}
+
+.projekts-title::before {
+    position: absolute;
+    content: '';
+    background-color: #FF7129;
+    width: 1px;
+    height: 52px;
+    left: 200px;
+}
+
+.slaid-img::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/group9.svg');
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 56px;
+    left: 209px;
+    top: 380px;
+}
+
+.projekts-wrapper::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/gallery.png');
+    background-repeat: no-repeat;
+    width: 398px;
+    height: 116px;
+    left: 174px;
+    top: 208px;
 }
 
 .instalation-welcome-section {
@@ -309,10 +427,6 @@ a {
 
 .header-address {
     margin-right: auto;
-}
-
-.contact-link:first-of-type {
-    margin-right: 56px;
 }
 
 .img-info {
