@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .page-header {
     background-color: white;
     display: flex;
@@ -25,6 +29,15 @@ a {
     font-size: 14px;
     line-height: 17px;
     color: #20242D;
+}
+
+.navigation-link-footer {
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
 }
 
 .active-nav-link{
@@ -189,15 +202,6 @@ a {
     background-color: #20242D;
 }
 
-.navigation-link-footer {
-    font-family: 'Gilroy', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    color: #FFFFFF;
-}
-
 .button-footer {
     border: 1px solid #FF7129;
     box-sizing: border-box;
@@ -326,10 +330,10 @@ a {
     content: '';
     background-image: url('../img/group9.svg');
     background-repeat: no-repeat;
-    width: 56px;
-    height: 56px;
-    left: 209px;
-    top: 380px;
+    width: 85px;
+    height: 81px;
+    left: 180px;
+    top: 607px;
 }
 
 .projekts-wrapper::before {
@@ -357,6 +361,28 @@ a {
     line-height: 87px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.instalation-title::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/foton-tech.png');
+    background-repeat: no-repeat;
+    width: 590px;
+    height: 116px;
+    top: 120px;
+    left: 0;
+}
+
+.instalation-title::after {
+    position: absolute;
+    content: '';
+    background-image: url('../img/Instalacja.png');
+    background-repeat: no-repeat;
+    width: 548px;
+    height: 116px;
+    right: -26px;
+    bottom: -39px;
 }
 
 .heading-info {
@@ -397,11 +423,22 @@ a {
     font-size: 16px;
     line-height: 24px;
     color: #20242D;
-    background-color: #F2F2F2;
+    background-color: #F2F2F2;   
+}
+
+.link-list-instalation::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/vector.png');
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    left: 0;
 }
 
 .text-container-description-instalation {
     background-color: #F2F2F2;
+    padding: 16px 24px 16px 24px;
 }
 
 .navigation-list {
@@ -419,6 +456,7 @@ a {
     padding-top: 12px;
     padding-bottom: 7px;
     align-items: center;
+    border: 1px solid #EFF1F5;
 }
 
 .header-wraper-contacts {
@@ -433,6 +471,17 @@ a {
     display: flex;
 }
 
+.img-info::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/index-plan.png');
+    background-repeat: no-repeat;
+    width: 535px;
+    height: 606px;
+    z-index: -1;
+    top: 1034px;
+}
+
 .img-wrapper {
     padding-left: 200px;
     padding-top: 132px;
@@ -440,6 +489,27 @@ a {
 
 .title {
     padding-left: 81px;
+}
+
+.index-info-text::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/info.png');
+    background-repeat: no-repeat;
+    width: 217px;
+    height: 116px;
+    top: 1132px;
+    left: 837px;
+}
+
+.index-info-title-wrapper::before {
+    position: absolute;
+    content: '';
+    background-color: #FF7129;
+    width: 1px;
+    height: 52px;
+    top: 1183px;
+    left: 860px;
 }
 
 .index-info-text p {
@@ -489,9 +559,31 @@ a {
     padding: 24px 50px;
 }
 
+.info-wrapper::before {
+    position: absolute;
+    content: '';
+    background-color: #7B7E85;
+    opacity: 0.3;
+    width: 1500px;
+    height: 1px;
+    left: 50px;
+}
+
 .about-text {
     display: flex;
     justify-content: space-between;
+}
+
+.about-text::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/o_nas_plan.png');
+    background-repeat: no-repeat;
+    width: 536px;
+    height: 606px;
+    top: 571px;
+    right: 1064px;
+    z-index: -1;
 }
 
 .about-text-container-one {
@@ -523,6 +615,16 @@ a {
     padding-left: 16px;
 }
 
+.contacts-title::before {
+    position: absolute;
+    content: '';
+    background-color: #FF7129;;
+    width: 1px;
+    height: 52px;
+    top: 219px;
+    left: 200px;
+}
+
 .contacts-welcome-section {
     display: flex;
     padding-left: 201px;
@@ -530,10 +632,30 @@ a {
     justify-content: space-between;
 }
 
+.contacts-welcome-section-wrapper::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/contacts.png');
+    background-repeat: no-repeat;
+    width: 493px;
+    height: 116px;
+    top: 174px;
+    left: 177px;
+}
+
 .contacts-info-navigation {
     display: block;
     padding-top: 178px;
     padding-bottom: 174px;
+}
+.contacts-info-navigation address::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/ucazatel.svg');
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 15px;
+    left: 203px;
 }
 
 .contacts-navigation {
@@ -546,8 +668,31 @@ a {
     padding-left: 28px;
 }
 
+.contacts-info-navigation p .contacts-info::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/convert.svg');
+    background-repeat: no-repeat;
+    width: 14px;
+    height: 12px;
+    left: 203px;
+    top: 744px;
+
+}
+
 .contacts-info-tel {
     padding-left: 28px;
+}
+
+.contacts-info-tel::before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/trubka.svg');
+    background-repeat: no-repeat;
+    width: 12px;
+    height: 12px;
+    left: 204px;
+    bottom: -322px;
 }
 
 .contacts-map {
@@ -566,22 +711,43 @@ a {
     margin-top: 120px;
 }
 
+.inst-section-block {
+    position: relative;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 .heading-info {
-    margin: 0px;
-    padding-left: 467px;
+    padding-left: 16px;
 }
 
-.subtitle-info {
-    padding-left: 450px;
+.heading-info::before {
+    position: absolute;
+    content:'';
+    background-color: #FF7129;
+    width: 1px;
+    height: 52px;
+    left: 0px;
+    /* top: -4px; */
 }
 
-.text-container {
-    padding-left: 450px;
+.last-heading-info {
+    padding-left: 16px;
+    font-family: 'Gilroy', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #20242D;
 }
 
-.instal1 {
-    padding-left: 450px;
-    padding-bottom: 24px;
+.last-heading-info::before {
+    position: absolute;
+    content:'';
+    background-color: #FF7129;
+    width: 1px;
+    height: 52px;
+    left: 25px;
 }
 
 .instal2-3 {
@@ -595,18 +761,6 @@ a {
 
 .instal3 {
     margin: 14px;
-}
-
-.text-container-description {
-    padding-left: 476px;
-}
-
-.inst-link-list {
-    padding-left: 507px;
-}
-
-.instal4 {
-    padding-left: 450px;
 }
 
 .text-lat {
