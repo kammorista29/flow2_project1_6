@@ -103,6 +103,27 @@
             </div>
         </div>
     </footer>
+    <div class="popup-container popup-container-hidden">
+        <div class="popup">
+            <h2>Obliczyć koszt</h2>
+            <p>Wprowadź swoje dane, aby obliczyć przybliżony koszt paneli słonecznych.</p>
+            <form>
+                <p>Roczne zużycie energii elektrycznej
+                    <span>42 200 kWh</span>
+                </p>
+                <input type="range">
+                <div class="select-container">
+                    <select class="custom-select">
+                        <option value="Południowy">Południowy</option>
+                        <option value="Wschodni">Wschodni</option>
+                        <option value="Zachodni">Zachodni</option>
+                    </select>
+                </div>
+                <button class="button" type="button">Obliczyć</button>
+                <button class="close" type="button"></button>
+            </form>
+        </div>
+    </div>
     <script src="js/script.js"></script>
 </body>
 </html>
